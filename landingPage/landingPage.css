@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+.alegreya-bold {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    color:#fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+/* Logo Styling */
+.logo {
+    width: 300px;
+    transition: width 1.5s ease;
+}
+
+/* Shrink logo on scroll */
+.small-logo {
+    width: 120px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+}
+
+.hero {
+    background-image:url(landingImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 140px ;
+   
+    text-align: center;
+    
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-family: "Italianno", cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-family: "Italianno", cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.hero button:hover {
+    background-color: #555;
+}
+.space
+{
+   padding :30px;
+}
+.about
+{
+  background: #fff;
+  padding: 200px 40px;
+
+}
+/* Base styling for the about section */
+/* Base styling for the about section */
+.about {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-content {
+    display: flex;
+    gap: 4rem;
+    align-items: flex-start;
+}
+
+/* Text content styling */
+.text-content {
+    flex: 2;
+    
+}
+
+.text-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: "Alegreya", serif;
+    color:#333;
+    text-align: left;
+    padding: 20px 20px;
+}
+
+.text-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+/* Image styling */
+.about-image {
+    flex: 1;
+    max-width: 50%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+    padding: 60px 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-content h2 {
+        font-size: 1.75rem;
+        text-align: center;
+        
+    }
+
+    .text-content p {
+        font-size: 0.95rem;
+        text-align: left;
+    }
+    
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.services h2
+{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: "Alegreya", serif;
+    color:#333;
+    text-align: left;
+    padding: 10px 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 30px;
+}
+#paro { fill: #005f0f; }
+#paro:hover { fill: #dad488; } /* Dark green to Medium green */
+
+#chhukha { fill: #007f3d; }
+#chhukha:hover { fill: #dad488; } /* Medium green to Bright green */
+
+#ha { fill: #009933; }
+#ha:hover { fill: #dad488; } /* Bright green to Fresh green */
+
+#samtse { fill: #4caf50; }
+#samtse:hover { fill: #dad488; } /* Fresh green to Soft green */
+
+#thimpu { fill: #2e7d32; }
+#thimpu:hover { fill: #dad488; } /* Forest green to Deep green */
+
+#tsirang { fill: #66bb6a; }
+#tsirang:hover { fill: #dad488; } /* Soft green to Light green */
+
+#dagana { fill: #388e3c; }
+#dagana:hover { fill: #dad488; } /* Deep green to Rich green */
+
+#punakha { fill: #2b7a2c; }
+#punakha:hover { fill: #dad488; } /* Rich green to Darker green */
+
+#wangdue { fill: #1b5e20; }
+#wangdue:hover { fill: #dad488; } /* Darker green to Dark green */
+
+#sarpang { fill: #7cb342; }
+#sarpang:hover { fill: #dad488; } /* Light green to Bright green */
+
+#trongsa { fill: #4aaf4c; }
+#trongsa:hover { fill: #dad488; } /* Vivid green to Deep green */
+
+#bumthang { fill: #1f8a1f; }
+#bumthang:hover { fill: #dad488; } /* Strong green to Bright green */
+
+#zhemgang { fill: #66bb6a; }
+#zhemgang:hover { fill: #dad488; } /* Bright green to Medium green */
+
+#trashigang { fill: #4caf50; }
+#trashigang:hover { fill: #dad488; } /* Medium green to Deep green */
+
+#monggar { fill: #388e3c; }
+#monggar:hover { fill: #dad488; } /* Deep green to Forest green */
+
+#pem { fill: #2e7d32; }
+#pem:hover { fill: #dad488; } /* Forest green to Medium green */
+
+#lhuentse { fill: #007f3d; }
+#lhuentse:hover { fill: #dad488; } /* Medium green to Dark green */
+
+#samdrup { fill: #1b5e20; }
+#samdrup:hover { fill: #dad488; } /* Darker green to Fresh green */
+
+#gasa { fill: #005f0f; }
+#gasa:hover { fill: #dad488; } /* Dark green to Medium green */
+
+#trashi { fill: #4caf50; }
+#trashi:hover { fill: #dad488; } 
+
+/* Existing CSS */
+.tooltip {
+    position: absolute;
+    background: black;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    pointer-events: none;
+    width: 300px;
+    height:250px;
+    z-index: 100;
+}
+
+.tooltip img {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.tooltip div {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+/*editorial section*/
+.editorial h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: "Alegreya", serif;
+    color:#333;
+    text-align: left;
+    padding: 10px 20px;
+}
+/* Grid container styling */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px; /* Space between cards */
+    max-width: 800px; /* Adjust based on layout needs */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Image card styling */
+.image-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.image-card:hover {
+    transform: scale(1.05); /* Zoom on hover */
+}
+
+.image-card img {
+    width: 100%;
+    height: 400px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.image-card:hover img {
+    transform: scale(1.1); /* Zoom on hover */
+}
+
+/* Overlay styling - always visible */
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Text styling inside overlay */
+.image-overlay h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: "Alegreya", serif;
+}
+
+.image-overlay p {
+    font-size: 1rem;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+/*carousel*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for the carousel */
+    margin: auto; /* Center the carousel */
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition for transform */
+}
+
+.carousel-slide {
+    display: flex;
+    min-width: 100%; /* Each slide takes full width */
+    justify-content: center; /* Center cards in the slide */
+}
+
+.card {
+    width: 210px; /* Set a fixed width for cards */
+    height: 210px; /* Set a fixed height for cards */
+    margin: 10px; /* Space between cards */
+    overflow: hidden; /* Hide overflow to maintain card shape */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for card effect */
+    background-color: white; /* Background color for cards */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 100%; /* Full width for images */
+    height: 100%; /* Full height for images */
+    object-fit: cover; /* Cover to maintain aspect ratio */
+    display: block; /* Remove bottom space under images */
+}
+
+
+
+
+
+
